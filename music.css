@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#bdc3c7,#2c3e50);
+    /* background-image: linear-gradient(#FFFFFF,#6DD5FA,#2980B9); */
+    /* background-image: linear-gradient(#FFFDE4,#005AA7); */
+}
+
+main{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    /* margin-top: 5rem; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background:  #FBB03B; */
+    /* background-image: linear-gradient(#D4145A,#FBB03B); */
+    background-image: linear-gradient(#FFFDE4,#005AA7);
+/* background: radial-gradient(circle, rgba(46,232,70,1) 0%, rgba(148,183,233,1) 100%); */
+
+}
+
+#cont{
+    width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    /* padding: 1rem; */
+}
+
+img{
+    border : 5px solid white;
+    border-radius:100%;
+    width: 90%;
+    
+}
+
+audio{
+    background-color: transparent;
+}
+
+i{
+    margin: 1rem;
+}
+
+.fa-regular .fa-pause{
+    display: none;  
+}
+
+#controls{
+    text-align: center;
+    position: relative;
+}
+
+#audio-control{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#volume{
+    position: relative;
+}
+
+.fa-volume:hover #volume-controls{
+    display: flex;
+}
+#volume-controls{
+    transform: rotate(270deg);
+    display: none;
+    position: absolute;
+    top: -120%;
+    left: -65%;
+}
+
+audio{
+    display: none;
+}
+
+#song-duration{
+    color:white;
+}

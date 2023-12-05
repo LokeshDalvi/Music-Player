@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./music.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+</head>
+<body>
+    <main>
+        <div id="cont">
+            <img src="" alt="">
+            <input type="range" name="" id="song-duration" value="0">
+            <audio src="" controls></audio>
+            
+            <div id="controls">
+                <div id="center-control">
+                    <i class="fa-duotone fa-backward"></i>
+                    <i class="fa-regular fa-pause"></i>
+                    <i class="fa-regular fa-play"></i>
+                    <i class="fa-duotone fa-forward"></i>
+                </div>
+                <div id="audio-control">
+                    <i class="fa-duotone fa-shuffle"></i>
+                    <div id="volume">
+                        <i class="fa-regular fa-volume"></i>
+                        <input type="range" id="volume-controls" min="0" max="1" step="0.01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>    
+
+    <script src="./music.js"></script>
+</body>
+</html>
